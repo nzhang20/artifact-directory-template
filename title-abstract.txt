@@ -1,5 +1,19 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Causal Discovery on Gut Microbial Data for Disease Risk Prediction
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+The human gut microbiome has become a significant factor in understanding
+metabolic health, influencing conditions such as type 2 diabetes (T2D) and
+polycystic ovary syndrome (PCOS). Despite its recognized impact, much of
+the current research on the human gut microbiome and diseases remain limited to associative and correlational studies, leaving gaps in understanding
+the underlying causal relationships. This study addresses these gaps by utilizing causal discovery algorithms and causal inference methods and comparing them with prediction models to investigate microbial contributions to T2D
+and PCOS. First, we graph the microbe-microbe interaction networks on the
+genus level for healthy and diseased cohorts using a version of the Peter-Clark
+(PC) algorithm altered to reduce the multiple testing burden. Then, we graph
+the microbe-disease interaction network on the genus level for a disease using the constraint-based causal discovery from heterogeneous/nonstationary
+data algorithm (CD-NOD) and compare the microbes directly linked to disease with microbes from a variational autoencoder (VAE) prediction model.
+Our results show that there are microbes causal to T2D and microbes causal
+to PCOS (expand). This work aims to provide a framework for investigating
+causal relationships between the gut microbiome and other diseases as well
+as guide further research and wet-lab experiments and develop a stronger
+understanding of the role of the gut microbiome in precision medicine.
